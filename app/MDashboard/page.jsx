@@ -110,7 +110,7 @@ const ManagerDashboard = () => {
       </aside>
       <main className="flex-1 p-8">
         <header className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold">Kishore's Dashboard</h2>
+          <h2 className="text-3xl font-bold">{profile.name}'s Dashboard</h2>
           <div className="flex items-center space-x-4">
             <input
               type="text"
